@@ -6,6 +6,13 @@ body {
 .assignment {
     background: burlywood;
     display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.assignment img{
+    width: 225px;
+    padding-right: 10px;
 }
 
 h1 {
