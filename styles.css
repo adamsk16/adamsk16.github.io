@@ -5,15 +5,17 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.assignment {
-    display: flex;
-    flex-wrap: wrap;
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
 }
 .assignment {
+    width:25%;
     background: burlywood;
     display: flex;
-    padding: 10px;
+    border-radius:5px;
     margin: 10px;
+    padding:20px 10;
 }
 
 .assignment img:hover {
@@ -24,11 +26,17 @@ body {
     width: 225px;
     margin: 10px;
     border: 4px solid darksalmon;
+    display:block;
+    margin:auto;
 }
 
 h1 {
     color: darksalmon;
     text-align: center;
+}
+
+h2 {
+    text-align:center;
 }
 
 a {
